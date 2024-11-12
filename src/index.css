@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+.container {
+  @apply mx-auto py-5;
+}
+
+.bg-secondary {
+  background-color: rgba(91, 91, 91, 1);
+}
+
+.input_style {
+  @apply bg-gray-200 border border-black px-4 w-[635px]  h-[69px];
+}
+
+textarea {
+  @apply bg-gray-200 border border-black p-4 w-[635px] h-[178px] rounded-[15px];
+}
+
+input{
+  @apply bg-transparent h-full border-none
+}
+
+.btn {
+  background-color: rgba(0, 122, 74, 1);
+  @apply rounded-[10px] text-[28px] text-white;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+label {
+  @apply text-[28px] font-bold;
+}
